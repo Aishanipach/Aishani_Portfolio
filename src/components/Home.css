@@ -1,0 +1,17 @@
+.cardgrid {
+    margin: 16vh 16vw;
+}
+
+.col :hover * {
+    box-shadow: 1px 0px 32px -5px rgba(202, 255, 77, 0.41);
+    cursor: pointer;
+    /* //background-color: black; */
+}
+
+
+
+.card {
+    --bs-card-bg: #202020 !important;
+    --bs-card-color: #202020;
+
+}

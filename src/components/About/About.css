@@ -1,0 +1,53 @@
+h1 {
+    font-size: 20vw;
+}
+
+.linear-wipe {
+    font-size: 5.3rem;
+    text-align: left;
+    background: linear-gradient(to right, #fff 20%, #c9ff4d 40%, #98ea4d 60%, #ffffff 80%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: shine 3s linear infinite;
+    animation: shine 3s linear infinite;
+}
+
+@-webkit-keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
+
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.mn svg {
+    fill: none;
+    stroke: #c9ff4d;
+    stroke-width: 1.5;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 338;
+    stroke-dashoffset: 338;
+    stroke-linecap: round;
+    position: inherit;
+    /* top: 80%; */
+    /* left: 50%; */
+    width: calc(18%);
+    opacity: 0;
+    transform: translate(-70%, 0%);
+    transition: stroke-dashoffset 0s 0.2s, opacity 0.2s;
+    z-index: -1;
+}
+
+.mn:hover svg {
+    stroke-dashoffset: 0;
+    opacity: 1;
+    transition: opacity 0s, stroke-dashoffset 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}

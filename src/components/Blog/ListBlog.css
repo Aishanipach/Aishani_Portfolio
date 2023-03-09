@@ -1,0 +1,12 @@
+.Wrap :hover {
+    border-bottom: solid rgb(203, 255, 77);
+    transition: 0.3s;
+    box-shadow: 1px 0px 12px -3px rgba(255, 255, 255, 0.163);
+}
+
+
+
+.Wrap :hover * {
+    border-bottom: 0px;
+    box-shadow: none;
+}

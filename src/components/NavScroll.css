@@ -1,0 +1,21 @@
+#navbar {
+    overflow: hidden;
+    z-index: 99;
+    margin: 3rem 2rem;
+    color: white;
+    transition: 0.3s;
+    /* Adds a transition effect when the padding is decreased */
+    background-color: #202020;
+}
+
+#navbaractive {
+    /* background: linear-gradient(90deg, #fafafa 0%, #CBFF4D 100%); */
+    background-color: #202020;
+    margin: 0;
+    padding: 1rem 2rem;
+    top: 0;
+    overflow: hidden;
+    position: sticky;
+    transition: 0.3s;
+
+}
