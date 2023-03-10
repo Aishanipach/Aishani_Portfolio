@@ -35,7 +35,7 @@ function CardGrids() {
           <div class="info">
             <h5>BaazVU & BaazAdmin</h5>
             <p style={{ fontWeight: "300" }}>Inventory management React-based dashboard for Baaz Bikes with AWS Cognito enabled auth and integrated backend. </p>
-            <a href="https://www.linkedin.com/company/baazbikes/" target="_blank"><button>Read More</button></a>
+            <a href="https://www.baaz.bike/" target="_blank"><button>Read More</button></a>
           </div>
         </div>
         <div class="card" id="newr"><img src={proj5} alt="" />
