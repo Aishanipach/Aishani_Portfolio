@@ -14,7 +14,7 @@ function CardGrids() {
           <div class="info">
             <h5>OMDB Web App</h5>
             <p style={{ fontWeight: "300" }}>Movie directory with Firebase authentication, playlist keeper while using OMDB API. Deployed on netlify.</p>
-            <a href="https://github.com/Aishanipach/Movie-Library" target="_blank"><button>Read More</button></a>
+            <a href="https://crud--dainty-gingersnap-eb4438.netlify.app/" target="_blank"><button>Read More</button></a>
           </div>
         </div>
         <div class="card" id="newr"><img src={proj3} alt="" />
