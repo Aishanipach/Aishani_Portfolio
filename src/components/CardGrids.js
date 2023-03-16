@@ -6,6 +6,8 @@ import proj3 from "./images/proj3.png"
 import proj4 from "./images/proj4.png"
 import proj5 from "./images/proj5.png"
 import proj6 from "./images/proj6.png"
+import proj7 from "./images/proj7.svg"
+import proj8 from "./images/proj8.svg"
 function CardGrids() {
   return (
     <div>
@@ -36,6 +38,20 @@ function CardGrids() {
             <h5>BaazVU & BaazAdmin</h5>
             <p style={{ fontWeight: "300" }}>Inventory management React-based dashboard for Baaz Bikes with AWS Cognito enabled auth and integrated backend. </p>
             <a href="https://www.baaz.bike/" target="_blank"><button>Read More</button></a>
+          </div>
+        </div>
+        <div class="card" id="newr"><img src={proj7} alt="" />
+          <div class="info">
+            <h5>Infinite Scroller</h5>
+            <p style={{ fontWeight: "300" }}>Implementing infinite scroll and image lazy loading with the HTML IntersectionObserver API.</p>
+            <a href="https://bespoke-syrniki-4f71cb.netlify.app/" target="_blank"><button>Read More</button></a>
+          </div>
+        </div>
+        <div class="card" id="newr"><img src={proj8} alt="" />
+          <div class="info">
+            <h5>Redux Listing</h5>
+            <p style={{ fontWeight: "300" }}>Pagination and redux store to fetch single user data from 2 different API-endpoints</p>
+            <a href="https://the-awesome-aishanipach-site.netlify.app/" target="_blank"><button>Read More</button></a>
           </div>
         </div>
         <div class="card" id="newr"><img src={proj5} alt="" />
