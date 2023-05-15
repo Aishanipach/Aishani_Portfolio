@@ -44,7 +44,7 @@ function NavScroll() {
             <Nav.Link className="text-light mx-2" href="/">  Work </Nav.Link>
             <Nav.Link className="text-light mx-2" href="blog">Blog</Nav.Link>
             <Nav.Link className="text-light mx-2" href="about" >About</Nav.Link>
-            <Nav.Link className="text-light mx-2" target="_blank" href="https://drive.google.com/file/d/1HUi_svqECNNpX8Qsh0MRk9N7fqja_DlU/view?usp=share_link">Resume</Nav.Link>
+            <Nav.Link className="text-light mx-2" target="_blank" href="https://drive.google.com/file/d/1a5Nax-2I-9oUyxS-76Ccbv3NhMRite_k/view?usp=share_link">Resume</Nav.Link>
 
           </Nav>
         </Navbar.Collapse>
